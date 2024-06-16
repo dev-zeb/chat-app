@@ -1,0 +1,42 @@
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+*.log
+
+# Build outputs
+build/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# IntelliJ related files
+.idea/
+*.iml
+
+# VS Code related files
+.vscode/
+
+# Mac specific
+*.DS_Store
+
+# Windows specific
+*.vscode/
+
+# Android related
+android/app/debug.keystore
+
+# Web related
+web/assets/
+
+# Linux related
+linux/flutter/ephemeral/
+
+# Firebase related
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
